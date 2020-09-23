@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: #42CAC6;
     line-height: 1.5;
 }
 
@@ -24,7 +24,7 @@ form input, form button {
 }
 
 .myBox {
-    background-color: burlywood;
+    background-color: #02A5C6;
     margin: 2rem auto;
     width: 300px;
     height: 400px;
@@ -35,9 +35,9 @@ form input, form button {
 }
 
 .icon {
-    width: 150px;
-    height: 150px;
-    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    background-color: #007BC8;
 }
 
 .data {
