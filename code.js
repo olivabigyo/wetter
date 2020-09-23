@@ -1,4 +1,3 @@
-// Here we go
 
 // Init variables
 let city = document.querySelector('#searchField');
@@ -6,9 +5,12 @@ const btnSubmit = document.querySelector('form button');
 let icon = document.querySelector('.icon img');
 let temp = document.querySelector('.temp');
 let description = document.querySelector('.description');
-// let location = document.querySelector('.location')
-// let wind = document.querySelector('.wind');
-// let hum = document.querySelector('.hum');
+let loc = document.querySelector('.location');
+let wind = document.querySelector('.wind');
+let hum = document.querySelector('.hum');
+// icon.src = `http://openweathermap.org/img/wn/04d@2x.png`;
+
+// let downloadImg
 
 // Add listeners
 btnSubmit.addEventListener('click', (e) => {
@@ -32,11 +34,14 @@ function getRequest() {
 }
 
 // Get icon for actual weather
-function getIcon(icon) {
-  icon.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+function getIcon(i) {
+  icon.src = `http://openweathermap.org/img/wn/${i}@4x.png`;
 }
 
 // Set weather data
 function setData(data) {
   temp.innerText = data.main.temp;
+  description.innerText = data.weather[0].description;
+  loc.innerText = data.name;
+  
 }
