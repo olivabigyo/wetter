@@ -5,3 +5,7 @@
 - Bob clones the repository from GitHub
 - They work locally and push commits to GitHub
 ---
+
+### This is a dog commit
+
+---
