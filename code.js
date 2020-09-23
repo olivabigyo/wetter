@@ -40,8 +40,9 @@ function getIcon(i) {
 
 // Set weather data
 function setData(data) {
-  temp.innerText = data.main.temp;
+  temp.innerText = `${data.main.temp.toFixed(1)} °C`;
   description.innerText = data.weather[0].description;
   loc.innerText = data.name;
-  
+  hum.innerText = `${data.main.humidity} %`;
+  wind.innerText = `${data.wind.speed} m/s`;
 }
