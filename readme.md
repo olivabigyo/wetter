@@ -1,3 +1,14 @@
+#### Story:
+- Alice creates a local repository and then one on GitHub
+- Alice adds the GitHub repo as a remote to the local repository
+- Alice invites Bob to the GitHub repository
+- Bob clones the repository from GitHub
+- They work locally and push commits to GitHub
+---
+
+### This is a dog commit
+
+---
 #### Alice's First Task:
 I create a new folder eg. `git_exercise`, initialize it as a git repository and make the first commit
 1) I start VSCode and open the new folder
