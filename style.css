@@ -10,7 +10,8 @@
 }
 
 body {
-    background-color: #42CAC6;
+    /* background-color: #42CAC6; */
+    background-color: #000000;
     line-height: 1.5;
 }
 
@@ -24,7 +25,8 @@ form input, form button {
 }
 
 .myBox {
-    background-color: #02A5C6;
+    /* background-color: #02A5C6; */
+    background-color: #c4c4c4;
     margin: 2rem auto;
     width: 300px;
     height: 400px;
@@ -37,7 +39,8 @@ form input, form button {
 .icon {
     width: 200px;
     height: 200px;
-    background-color: #007BC8;
+    /* background-color: #007BC8; */
+    background-color: #5a5a5a;
 }
 
 .data {
